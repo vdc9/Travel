@@ -1,29 +1,40 @@
-<!DOCTYPE html>
-<html>
-  <head>
+   body{
+    background-color: #C6E2FF;
+   }
 
-   <body>
 
    <title>
-   h1 { font-weight: bold;
-       font-size: larger;
-       text-align: center;
+   h1 {
+       font-weight:bold;
+       font-size: 80px;
+       text-align:center;
+       width:100%;
+       text-anchor:fixed;
         }
      
    </title>
-    h2 {height: 300px;
-        width: 40px;
+/*Top image*/
 
+   img {
+      display:block;
+      margin:auto;
+      width:40%;
     }
 
-  </head>
+/*These will be the slideshow pictures*/
 
-  h3 {font-size: ; 
+  .slidewhow {
+    max-width: 1000px;
+    position: relative;
+    margin: (40px, 20px, 40px, 20px)
+    font-size: 20px 
+
    } 
 
 
-  ol {font-size: 
-
+  
+  .active {
+    z-index:99; 
   }
 
   
