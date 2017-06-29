@@ -3,40 +3,45 @@
    }
 
 
-   <title>
-   h1 {
-       font-weight:bold;
-       font-size: 80px;
-       text-align:center;
-       width:100%;
-       text-anchor:fixed;
-        }
+  /*title*/
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;   
+    }
      
-   </title>
 /*Top image*/
 
-   img {
+  img {
       display:block;
       margin:auto;
       width:40%;
-    }
+      border-style: groove;
+      border-width: 5px;
+      }
 
 /*These will be the slideshow pictures*/
 
-  .slidewhow {
+  .image {
     max-width: 1000px;
-    position: relative;
+    position: center;
     margin: (40px, 20px, 40px, 20px)
     font-size: 20px 
 
    } 
 
+/*general text edits*/
 
-  
-  .active {
-    z-index:99; 
+  p, ol {
+    font-size: 20px;
   }
 
+/*button edits*/ 
+  .prev, .next {
+
+    size: 30px;
+    
+  }
   
   
 </body>
